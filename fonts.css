@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'fivo-sans';
+    src: url('fonts/fivosansmodern-medium-webfont.woff2') format('woff2'),
+         url('fonts/fivosansmodern-medium-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fivo-sans';
+    src: url('fonts/fivosansmodern-regular-webfont.woff2') format('woff2'),
+         url('fonts/fivosansmodern-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
