@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include 'includes/header.php'; ?>
+
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    
+    <!-- font
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="http://fonts.cdnfonts.com/css/fivo-sans-modern" rel="stylesheet">
+    <link href="https://allfont.net/allfont.css?fonts=pragmatica" rel="stylesheet" type="text/css">
+
+     -->
+    <link href="fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/bop8cvy.css">
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <script src="js/scripts.js" ></script>
+
+    <!-- style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- sharecode -->
+    <meta property="og:title" content="MB Studio Fund">
+    <meta property="og:image" content="https://mbstudiofund.ca/images/mbstudio-shareable.jpg">
+    <meta property="og:description" content="GDC Foundation and seven Manitoba design studios have come together to provide two annual scholarships to BIPOC students who are pursuing a degree or certificate in the field of design and design communications.">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@GetBehindDesign">
+    <meta name="twitter:creator" content="@GetBehindDesign">
+    <meta name="twitter:title" content="MB Studio Fund">
+    <meta name="twitter:description" content="GDC Foundation and seven Manitoba design studios have come together to provide two annual scholarships to BIPOC students who are pursuing a degree or certificate in the field of design and design communications.">
+    <meta name="twitter:image" content="https://mbstudiofund.ca/images/mbstudio-shareable.jpg">
 <title>News | MB Studio Fund</title>
 </head>
 <body class="brown4">
 
 <!-- major section ============================ -->
 <section class="head2">
-    <?php include 'includes/subpage-header.php'; ?>
+    <div class="back">
+    <a class="style1 strike-hover" href="/">Back</a>
+  
+</div>
+<div class="arrow"></div>
+
+<div class="apply-questions">
+    <a 
+        class="style1 strike-hover" 
+        title="Visit the GDC Websites google form on how to apply, and to submit your application."
+        href="https://docs.google.com/forms/d/e/1FAIpQLSebYivUAakCzS1a_mlovm8FW0BogH193khAVgSEi2CDUqEUKQ/viewform">
+        Apply Now
+    </a>
+</div>
     <img alt="girl1" class="img1" src="images/girl2.jpg">
 </section>
 
 <!-- major section ============================ -->
 <section class="supersec1">
-
     <div class="sec1 two-columns">
-
         <div class="column1">
             <div class="positioning-icon">
                 <img aria-hidden="true" alt="" class="icon icon1" src="images/i_big.png"> 
@@ -34,15 +77,12 @@
                 </blockquote>                  
             </div>
         </div>
-
     </div>
 
     <div class="secmid">
         <!-- stuff to absolute position -->
         <img aria-hidden="true" alt="" class="smallicon" data-aos="fade-left" src="images/i_small.png">
     </div>
-
-
 </section>
         
 
@@ -57,7 +97,6 @@
     </div>
 
     <div class="column2 sec2right">
-
         <div class="news-item cf">
             <div class="titledate bordertopfull">
                 <h2>Manitoba Studio Fund Scholarship is Back for 2022</h2>
@@ -93,10 +132,47 @@
             <p class="titledate bordertopfull">Manitoba design studios unite with GDC Foundation to help aspiring designers achieve their dreams</p>
             <a class="read-more" href="https://gdc.net/article/national/new-scholarship-for-bipoc-students-aims-to-increase-diversity-in-design-sector">Read more <img alt="arrow" class="arrow2" src="images/arrow.png"></a>
         </div>
-
     </div>
-
 </section>
 
+        <!-- fixed position elements -->
+        <p class="msf" aria-hidden="true">Manitoba Studio Fund</p>
+        <div class="arrowh" aria-hidden="true"></div>
+        <p class="year" aria-hidden="true">20<br>22</p>
+        <!-- end fixed elements -->
 
-<?php include 'includes/subpage-footer.php'; ?>
+        <footer id="footer">
+
+            <a class="footer-logo" href="/">
+                <img class="logo" src="images/msf-black.png" alt="Manitoba Studio Fund" >
+                <img class="logo logo-white" src="images/msf-white.png" alt="" aria-hidden="true">
+            </a>
+
+            <div class="apply-questions ">
+                <a id="emailTrigger" class="strike-hover" href="#">Questions?</a>
+                <span id="email" class="email hidden">education@gdc.net</span>
+            </div>
+
+            <div class="social-media-icons">
+                <a id="facebook" href="https://www.facebook.com/GDC-Foundation-827640470628889/">
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a id="instagram" href="https://www.instagram.com/gdcfoundation/?hl=en">
+                    <span class="sr-only">Instagram</span>
+                </a> 
+                <a id="linkedin" href="https://ca.linkedin.com/in/gdc-foundation-58b77719a">
+                    <span class="sr-only">LinkedIn</span>
+                </a> 
+                <a id="twitter" href="https://twitter.com/getbehinddesign?lang=en">
+                    <span class="sr-only">Twitter</span>
+                </a>
+            </div>
+
+        </footer>
+
+        <!--Aos Data-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init({offset: 100,duration:1000,});</script> 
+
+    </body>
+</html>
