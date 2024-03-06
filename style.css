@@ -1063,6 +1063,11 @@ p.bold {
     background: none !important;
 }
 
+.news-item a:hover,
+.news-item a:focus {
+    text-decoration: none;
+}
+
 /*-----------------------------------------*/
 
 /* Apply 05 */
