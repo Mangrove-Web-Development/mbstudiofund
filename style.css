@@ -942,14 +942,6 @@ p.bold {
     font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
 /*-----------------------------------------*/
 
 /* NEWS04 */
@@ -960,16 +952,6 @@ p.bold {
     align-items: center;
 }
 
-/*
-.brown4 .sec1 :first-child {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	max-width: 50%;
-	margin-right: 5%;
-}
-*/
 .brown4 .img2 {
     max-height: 114px;
     width: auto;
