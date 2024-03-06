@@ -749,7 +749,7 @@ section {
     font-style: normal;
 }
 
-.sec2right a:hover {
+.sec2right .read-more:hover {
     height: 30px;
     background-color: #427271;
 }
@@ -1002,22 +1002,20 @@ p.bold {
     margin-left: 10px;
 }
 
-.sec2right a {
+.sec2right .read-more {
     margin-top: 30px;
-
     font-size: 16px;
     padding-right: 20px;
     padding-left: 20px;
 }
 
-.sec2right a:hover {
+.sec2right .read-more:hover {
     max-width: 250px;
     background-color: #427271;
 }
 
 .sec2right .titledate a {
     display: inline-block;
-
 }
 
 .add-line-above {
