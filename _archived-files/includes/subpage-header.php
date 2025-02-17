@@ -8,7 +8,7 @@
     <?php  echo '<a 
     class="style1 strike-hover" 
     title="Visit the GDC Websites google form on how to apply, and to submit your application."
-    href="https://docs.google.com/forms/d/e/1FAIpQLSebYivUAakCzS1a_mlovm8FW0BogH193khAVgSEi2CDUqEUKQ/viewform">Apply Now</a>'; 
+    href="https://docs.google.com/forms/d/e/1FAIpQLSdPvk76uPW_u37dQJx9pGvO2cjImosKUjoJtSHeG33iPCKSqg/viewform">Apply Now</a>'; 
      ?>
     <!-- <a 
     class="style1 strike-hover inactive" 

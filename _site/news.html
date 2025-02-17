@@ -50,7 +50,7 @@
     <a 
         class="style1 strike-hover" 
         title="Visit the GDC Websites google form on how to apply, and to submit your application."
-        href="https://docs.google.com/forms/d/e/1FAIpQLSebYivUAakCzS1a_mlovm8FW0BogH193khAVgSEi2CDUqEUKQ/viewform">
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdPvk76uPW_u37dQJx9pGvO2cjImosKUjoJtSHeG33iPCKSqg/viewform">
         Apply Now
     </a>
 </div>
@@ -99,6 +99,41 @@
     <div class="column2 sec2right">
         <div class="news-item cf">
             <div class="titledate bordertopfull">
+                <h2>The Manitoba Studio Fund Scholarship for 2025 is Open for Submissions</h2>
+                <p>2/23/2025</p>
+            </div>
+            <p class="bordertopfull">
+                We are happy to announce our fifth annual scholarship for design students of colour in the province of Manitoba. Please visit <a href="https://descan.ca/scholarship/the-manitoba-studio-fund-mbsf">the scholarship page</a> on the DesCan website to learn more and apply. Submissions must be submitted online by May 1, 2025. If you have any questions, please don't hesitate to email us at <a href="mailto:education@descan.ca">education@descan.ca</a>.
+            </p><br>
+        </div>
+        <div class="news-item cf">
+            <div class="titledate bordertopfull">
+                <h2>The Manitoba Studio Fund Scholarship for 2024 is Open for Submissions</h2>
+                <p>2/23/2024</p>
+            </div>
+            <p class="bordertopfull">
+                Having distributed funds to six people since 2021, we are honoured to announce our fourth annual scholarship for design students of colour in Manitoba. For more information, please visit our About and Apply pages or <a href="https://descan.ca/scholarship/the-manitoba-studio-fund-mbsf">this scholarship page</a> on the DesCan website. Submissions must be submitted online by May 1, 2024. If you have any questions, please email us at education@descan.ca.
+            </p><br>
+        </div>
+
+        <div class="news-item cf">
+            <div class="titledate bordertopfull">
+                <h2>Manitoba Studio Fund is Open for Submissions in 2023</h2>
+                <p>1/24/2023</p>
+            </div>
+            <p class="titledate bordertopfull">We are very excited to launch our third annual scholarship for BIPOC design students in Manitoba. For more information about the scholarship, please visit our About and Apply pages. The application form is now open, and submissions must be submitted by May 1, 2023. If you have any questions, please email education@descan.ca.</p><br>
+        </div>
+        
+        <div class="news-item cf">
+            <div class="titledate bordertopfull">
+                <h2>2022 Manitoba Studio Fund Scholarship Recipients Announced</h2>
+                <p>7/11/22</p>
+            </div>
+            <p class="titledate bordertopfull">With DesCan Foundation, it is an honour to announce that two scholarships have been awarded to design students in Manitoba. They are Songkyung Kang (RRC Polytechnic) and Kyungdeok Park (University of Manitoba). Each will receive $2,000 to support their schooling in recognition of their design excellence and dedication to the practice. Congratulations to both of you – and thank you to all of those who submitted applications in 2022!</p><br>
+        </div>
+
+        <div class="news-item cf">
+            <div class="titledate bordertopfull">
                 <h2>Manitoba Studio Fund Scholarship is Back for 2022</h2>
                 <p>1/03/2022</p>
             </div>
@@ -138,7 +173,7 @@
         <!-- fixed position elements -->
         <p class="msf" aria-hidden="true">Manitoba Studio Fund</p>
         <div class="arrowh" aria-hidden="true"></div>
-        <p class="year" aria-hidden="true">20<br>22</p>
+        <p class="year" aria-hidden="true">20<br><span class="last-year-digits">24</span></p>
         <!-- end fixed elements -->
 
         <footer id="footer">
@@ -150,7 +185,7 @@
 
             <div class="apply-questions ">
                 <a id="emailTrigger" class="strike-hover" href="#">Questions?</a>
-                <span id="email" class="email hidden">education@gdc.net</span>
+                <span id="email" class="email hidden">education@descan.ca</span>
             </div>
 
             <div class="social-media-icons">
@@ -173,6 +208,9 @@
         <!--Aos Data-->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init({offset: 100,duration:1000,});</script> 
+        <script>
+            document.querySelector('.last-year-digits').textContent = new Date().getFullYear().toString().slice(-2);
+        </script>
 
     </body>
 </html>

@@ -34,7 +34,7 @@
     <meta name="twitter:title" content="MB Studio Fund">
     <meta name="twitter:description" content="GDC Foundation and seven Manitoba design studios have come together to provide two annual scholarships to BIPOC students who are pursuing a degree or certificate in the field of design and design communications.">
     <meta name="twitter:image" content="https://mbstudiofund.ca/images/mbstudio-shareable.jpg">
-<title>GDC | MB Studio Fund</title>
+<title>DesCan | MB Studio Fund</title>
 </head>
 <body class="brown3">
 
@@ -50,7 +50,7 @@
     <a 
         class="style1 strike-hover" 
         title="Visit the GDC Websites google form on how to apply, and to submit your application."
-        href="https://docs.google.com/forms/d/e/1FAIpQLSebYivUAakCzS1a_mlovm8FW0BogH193khAVgSEi2CDUqEUKQ/viewform">
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdPvk76uPW_u37dQJx9pGvO2cjImosKUjoJtSHeG33iPCKSqg/viewform">
         Apply Now
     </a>
 </div>
@@ -66,9 +66,11 @@
             <img aria-hidden="true" alt="" class="icon icon1" src="images/pen_big.png">
         </div>
         <div class="column2 secwrite" data-aos="fade-left">
-            <h1>Graphic Designers of&nbsp;Canada</h1>
+            <h1>Design Professionals of&nbsp;Canada</h1>
             <div class="text">
-                <p>GDC is a Canada's national association for design professionals. Supporting and advancing the design profession through advocacy, education, community building, and CGD™ certification.</p>
+                <p>
+                    <a href="https://descan.ca/">DesCan</a> is a nationwide, membership-based community that has been establishing standards for design professionals since 1956. The organization seeks to lead, support, and advance professional design communications in Canada. It offers the CDP™ Certified mark to members whose services meet a rigorous and professional standard certification.
+                </p>
             </div>
         </div>
     </div>
@@ -89,16 +91,22 @@
 <!-- major section ============================ -->
 <section class="gdcsec2" data-aos="fade-up">
     <div class="gdcsec2top">
-        <a href="https://www.gdc.net/"><img alt="gdclogo" class="gdclogo" src="images/gdc-logo.png"></a>
-        <p>GDC is a member-based organization of design professionals, educators, administrators, students and affiliates in communications, marketing, media and design-related fields. GDC members come together via nine chapters across Canada to advocate for the advancement of the design profession.</p>
+        <a href="https://descan.ca/"><img alt="DesCan Logo" class="gdclogo" src="images/des-can_editedcolour.png"></a>
+        <p>
+            DesCan is an adaptive and vibrant nationwide community fuelled by member participation. Designers, students, educators, other professionals, and businesses band together as chapters and each chapter is defined by its city.
+        </p>
     </div>
     <div class="gdcsec2bottom two-columns align-top">
         <div class="column1 add-line-above">
-            <p><a href="https://www.gdc.net/">GDC</a> is Canadaʼs national certification body for graphic and communication design and, since 1956, has established standards for design professionals, educators, and leaders. Through its certification program, GDC licenses the unique CGD™ certification mark to members whose services meet rigorous, standardized criteria. The CGD certification mark is recognized across Canada as the mark of professional services and ethical business conduct.</p>
+            <p>
+                DesCan is Canada’s national Certification body. Committed to the advancement of Certification, DesCan licenses the CDP™ Certified mark to members whose services meet a rigorous and professional standard. The CDP™ Certified mark is recognized as the mark of professional design services and ethical business conduct. Design Professionals of Canada has been an advocacy-based organization for over 65 years. Since its inception in 1956, it has advanced professional design and cemented itself as a leader and supporter of the Canadian design profession.
+            </p>
         </div>
         <div class="column2 gdcsec2bottom2">
-        <h2>The Manitoba Studio fund is proud to partner with the GDC Foundation to provide these two special scholarships. You can support the GDC Foundation in providing scholarships, grants, and a benevolent fund, by donating at  <a href="https://www.gdc.net/foundation">gdc.net/foundation</a>.</h2>
-            <a class="btn" href="http://www.gdc.net/foundation">Donate</a>
+            <h2>
+                The Manitoba Studio Fund is proud to partner with the DesCan Foundation to provide these two unique scholarships. You can support the DesCan Foundation in providing scholarships and grants to designers by clicking the Donate link below.
+            </h2>
+            <a class="btn" href="https://descan.ca/foundation/">Donate</a>
         </div>
     </div>
 </section>
@@ -107,7 +115,7 @@
         <!-- fixed position elements -->
         <p class="msf" aria-hidden="true">Manitoba Studio Fund</p>
         <div class="arrowh" aria-hidden="true"></div>
-        <p class="year" aria-hidden="true">20<br>22</p>
+        <p class="year" aria-hidden="true">20<br><span class="last-year-digits">24</span></p>
         <!-- end fixed elements -->
 
         <footer id="footer">
@@ -119,7 +127,7 @@
 
             <div class="apply-questions ">
                 <a id="emailTrigger" class="strike-hover" href="#">Questions?</a>
-                <span id="email" class="email hidden">education@gdc.net</span>
+                <span id="email" class="email hidden">education@descan.ca</span>
             </div>
 
             <div class="social-media-icons">
@@ -142,6 +150,9 @@
         <!--Aos Data-->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init({offset: 100,duration:1000,});</script> 
+        <script>
+            document.querySelector('.last-year-digits').textContent = new Date().getFullYear().toString().slice(-2);
+        </script>
 
     </body>
 </html>

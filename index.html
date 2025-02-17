@@ -16,7 +16,7 @@
             <a href="/">
                 <img alt="logo" class="logo" src="images/msf-black.png">
             </a>
-            <p>Manitoba Studio Fund 2024</p>
+            <p>Manitoba Studio Fund <span id="current-year"></span></p>
             <img aria-hidden="true" alt="" class="cicon" src="images/gradcap_small.png">
         </div>
         <img alt="Manitoba Studio Fund" class="logodown" src="images/msf-black.png">
@@ -40,6 +40,8 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
     <script>
         AOS.init();
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
     </script>
 
 	</body>

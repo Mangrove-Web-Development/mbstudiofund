@@ -1,7 +1,7 @@
         <!-- fixed position elements -->
         <p class="msf" aria-hidden="true">Manitoba Studio Fund</p>
         <div class="arrowh" aria-hidden="true"></div>
-        <p class="year" aria-hidden="true">20<br>24</p>
+        <p class="year" aria-hidden="true">20<br><span class="last-year-digits">24</span></p>
         <!-- end fixed elements -->
 
         <footer id="footer">
@@ -36,6 +36,9 @@
         <!--Aos Data-->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init({offset: 100,duration:1000,});</script> 
+        <script>
+            document.querySelector('.last-year-digits').textContent = new Date().getFullYear().toString().slice(-2);
+        </script>
 
     </body>
 </html>

@@ -50,7 +50,7 @@
     <a 
         class="style1 strike-hover" 
         title="Visit the GDC Websites google form on how to apply, and to submit your application."
-        href="https://docs.google.com/forms/d/e/1FAIpQLSebYivUAakCzS1a_mlovm8FW0BogH193khAVgSEi2CDUqEUKQ/viewform">
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdPvk76uPW_u37dQJx9pGvO2cjImosKUjoJtSHeG33iPCKSqg/viewform">
         Apply Now
     </a>
 </div>
@@ -66,11 +66,13 @@
         </div>
         <div class="secwrite" data-aos="fade-left">
             <h1>
-            Apply now for the 2022 MBSF
+                Apply now for the 2025 Scholarship
             </h1>
             <div class="text">
-                <p>The Manitoba Studio Fund scholarship aims to increase diversity in the design sector. Now open for submissions! Apply by May 1st, 2022 to be considered for this year.</p>
-                <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebYivUAakCzS1a_mlovm8FW0BogH193khAVgSEi2CDUqEUKQ/viewform">Apply Now</a>
+                <p>
+                    The Manitoba Studio Fund scholarship aims to increase diversity in the design sector. Now open for submissions! Apply by May 1st, 2025!
+                </p>
+                <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSe0zrTBMvFAcsC8KcdBTSsMOFGBn9ttJS4fTOBcACY6yU6Whw/viewform">Apply Now</a>
             </div>  
         </div>
 
@@ -136,7 +138,7 @@
         <!-- fixed position elements -->
         <p class="msf" aria-hidden="true">Manitoba Studio Fund</p>
         <div class="arrowh" aria-hidden="true"></div>
-        <p class="year" aria-hidden="true">20<br>22</p>
+        <p class="year" aria-hidden="true">20<br><span class="last-year-digits">24</span></p>
         <!-- end fixed elements -->
 
         <footer id="footer">
@@ -148,7 +150,7 @@
 
             <div class="apply-questions ">
                 <a id="emailTrigger" class="strike-hover" href="#">Questions?</a>
-                <span id="email" class="email hidden">education@gdc.net</span>
+                <span id="email" class="email hidden">education@descan.ca</span>
             </div>
 
             <div class="social-media-icons">
@@ -171,6 +173,9 @@
         <!--Aos Data-->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init({offset: 100,duration:1000,});</script> 
+        <script>
+            document.querySelector('.last-year-digits').textContent = new Date().getFullYear().toString().slice(-2);
+        </script>
 
     </body>
 </html>

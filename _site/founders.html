@@ -51,7 +51,7 @@
     <a 
         class="style1 strike-hover" 
         title="Visit the GDC Websites google form on how to apply, and to submit your application."
-        href="https://docs.google.com/forms/d/e/1FAIpQLSebYivUAakCzS1a_mlovm8FW0BogH193khAVgSEi2CDUqEUKQ/viewform">
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdPvk76uPW_u37dQJx9pGvO2cjImosKUjoJtSHeG33iPCKSqg/viewform">
         Apply Now
     </a>
 </div>
@@ -74,7 +74,7 @@
             <div class="text">
                 <blockquote>
                     <p>“In establishing this scholarship for Black, Indigenous and design students of colour, we hope to show our support for individuals in their design studies, encourage dialogue in the profession, and shine a bright light on the pressing need for diversity, equity and inclusion both in the academy and in the studio.”</p>
-                    <cite>— Andrew Boardman CGD, of Manoverboard</cite>
+                    <cite>— Andrew Boardman CDP™, Mangrove (formerly Manoverboard)</cite>
                 </blockquote>                  
             </div>
         </div>
@@ -84,68 +84,47 @@
 </section>
 
 <!-- major section ============================ -->
-<section class="sec2" data-aos="fade-up">
-    <p>2021 Donors</p>
-    <h2>Brandish, Guppy&nbsp;Design, Honest&nbsp;Agency, Manoverboard, Relish&nbsp;New Brand&nbsp;Experience, 'Segun&nbsp;Olude, Sly&nbsp;Bird&nbsp;Creative</h2>
+<section class="sec2 aos-init aos-animate" data-aos="fade-up">
+    <p>2023 Donors</p>
+    <h2>Brandish, Guppy&nbsp;Design, Honest&nbsp;Agency, Mangrove, Relish&nbsp;New Brand&nbsp;Experience, 'Segun&nbsp;Olude, Sly&nbsp;Bird&nbsp;Creative</h2>
     <div class="brandlogos">
         <div class="grid-item">
             <a href="https://brandishagency.com/">
-            <img 
-                alt="Brandish." 
-                class="donoricon"       
-                src="images/founders/brandish.svg">
+            <img alt="Brandish." class="donoricon" src="images/founders/brandish.svg">
             </a>
         </div>
         <div class="grid-item">
             <a href="https://www.guppydesign.com/">
-                <img 
-                    alt="Guppy Design." 
-                    class="donoricon"          
-                    src="images/founders/guppy-design.svg"> 
+                <img alt="Guppy Design." class="donoricon" src="images/founders/guppy-design.svg"> 
             </a>
         </div>
         <div class="grid-item">
             <a href="https://honestagency.com/">
-                <img 
-                    alt="Honest Agency." 
-                    class="donoricon"         
-                    src="images/founders/honest-agency.svg">
+                <img alt="Honest Agency." class="donoricon" src="images/founders/honest-agency.svg">
             </a>
         </div>
         <div class="grid-item">
-            <a href="https://manoverboard.com/">
-                <img 
-                    alt="Manoverboard Websites & Brand Identities." 
-                    class="donoricon"   
-                    src="images/founders/manoverboard-logo-2021.svg">
+            <a href="https://mangrove-web.com/">
+                <img alt="Mangrove Websites &amp; Brand Identities." class="donoricon" src="images/founders/mangrove-logo-edited.svg">
             </a>
         </div>
         <div class="grid-item">
             <a href="https://www.relishbranding.ca/">
-                <img 
-                    alt="Relish New Brand Experience Inc." 
-                    class="donoricon"         
-                    src="images/founders/relish.png"> 
+                <img alt="Relish New Brand Experience Inc." class="donoricon" src="images/founders/relish.png"> 
             </a>
         </div>
         <div class="grid-item">
             <a href="http://www.segunolude.com/">
-                <img 
-                    alt="Segun Olude." 
-                    class="donoricon"         
-                    src="images/founders/segun-olude.png"> 
+                <img alt="Segun Olude." class="donoricon" src="images/founders/segun-olude.png"> 
             </a>
         </div>
         <div class="grid-item">
             <a href="https://slybirdcreative.com/">
-                <img 
-                    alt="Sly Bird Creative." 
-                    class="donoricon"        
-                    src="images/founders/sly-bird-creative.png">
+                <img alt="Sly Bird Creative." class="donoricon" src="images/founders/sly-bird-creative.png">
             </a>
         </div>
         <div class="grid-item">
-            <p class="bordertop2">Thank you to all our generous donors and contributors!</p>
+            <p class="bordertop2">Thank you to all of our kind and generous donors and contributors who make this scholarship possible.</p>
         </div>
     </div>
 </section>
@@ -153,7 +132,7 @@
         <!-- fixed position elements -->
         <p class="msf" aria-hidden="true">Manitoba Studio Fund</p>
         <div class="arrowh" aria-hidden="true"></div>
-        <p class="year" aria-hidden="true">20<br>22</p>
+        <p class="year" aria-hidden="true">20<br><span class="last-year-digits">24</span></p>
         <!-- end fixed elements -->
 
         <footer id="footer">
@@ -165,7 +144,7 @@
 
             <div class="apply-questions ">
                 <a id="emailTrigger" class="strike-hover" href="#">Questions?</a>
-                <span id="email" class="email hidden">education@gdc.net</span>
+                <span id="email" class="email hidden">education@descan.ca</span>
             </div>
 
             <div class="social-media-icons">
@@ -188,6 +167,9 @@
         <!--Aos Data-->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init({offset: 100,duration:1000,});</script> 
+        <script>
+            document.querySelector('.last-year-digits').textContent = new Date().getFullYear().toString().slice(-2);
+        </script>
 
     </body>
 </html>
